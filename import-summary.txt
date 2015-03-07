@@ -1,0 +1,100 @@
+ECLIPSE ANDROID PROJECT IMPORT SUMMARY
+======================================
+
+Ignored Files:
+--------------
+The following files were *not* copied into the new Gradle project; you
+should evaluate whether these are still needed in your project and if
+so manually move them:
+
+* .idea/
+* .idea/.name
+* .idea/compiler.xml
+* .idea/copyright/
+* .idea/copyright/profiles_settings.xml
+* .idea/encodings.xml
+* .idea/misc.xml
+* .idea/modules.xml
+* .idea/scopes/
+* .idea/scopes/scope_settings.xml
+* .idea/uiDesigner.xml
+* .idea/vcs.xml
+* .idea/workspace.xml
+* CriminalIntent.iml
+* ant.properties
+* build.xml
+* out/
+* out/production/
+* out/production/CriminalIntent/
+* out/production/CriminalIntent/CriminalIntent.apk
+* out/production/CriminalIntent/CriminalIntent.unaligned.apk
+* out/production/CriminalIntent/com/
+* out/production/CriminalIntent/com/bignerdranch/
+* out/production/CriminalIntent/com/bignerdranch/criminalintent/
+* out/production/CriminalIntent/com/bignerdranch/criminalintent/BuildConfig.class
+* out/production/CriminalIntent/com/bignerdranch/criminalintent/Crime.class
+* out/production/CriminalIntent/com/bignerdranch/criminalintent/CrimeCameraActivity.class
+* out/production/CriminalIntent/com/bignerdranch/criminalintent/CrimeCameraFragment$1.class
+* out/production/CriminalIntent/com/bignerdranch/criminalintent/CrimeCameraFragment$2.class
+* out/production/CriminalIntent/com/bignerdranch/criminalintent/CrimeCameraFragment$3.class
+* out/production/CriminalIntent/com/bignerdranch/criminalintent/CrimeCameraFragment$4.class
+* out/production/CriminalIntent/com/bignerdranch/criminalintent/CrimeCameraFragment.class
+* out/production/CriminalIntent/com/bignerdranch/criminalintent/CrimeFragment$1.class
+* out/production/CriminalIntent/com/bignerdranch/criminalintent/CrimeFragment$2.class
+* out/production/CriminalIntent/com/bignerdranch/criminalintent/CrimeFragment$3.class
+* out/production/CriminalIntent/com/bignerdranch/criminalintent/CrimeFragment$4.class
+* out/production/CriminalIntent/com/bignerdranch/criminalintent/CrimeFragment$5.class
+* out/production/CriminalIntent/com/bignerdranch/criminalintent/CrimeFragment$6.class
+* out/production/CriminalIntent/com/bignerdranch/criminalintent/CrimeFragment$7.class
+* out/production/CriminalIntent/com/bignerdranch/criminalintent/CrimeFragment$Callbacks.class
+* out/production/CriminalIntent/com/bignerdranch/criminalintent/CrimeFragment.class
+* out/production/CriminalIntent/com/bignerdranch/criminalintent/CrimeLab.class
+* out/production/CriminalIntent/com/bignerdranch/criminalintent/CrimeListActivity.class
+* out/production/CriminalIntent/com/bignerdranch/criminalintent/CrimeListFragment$1.class
+* out/production/CriminalIntent/com/bignerdranch/criminalintent/CrimeListFragment$Callbacks.class
+* out/production/CriminalIntent/com/bignerdranch/criminalintent/CrimeListFragment$CrimeAdapter.class
+* out/production/CriminalIntent/com/bignerdranch/criminalintent/CrimeListFragment.class
+* out/production/CriminalIntent/com/bignerdranch/criminalintent/CrimePagerActivity$1.class
+* out/production/CriminalIntent/com/bignerdranch/criminalintent/CrimePagerActivity$2.class
+* out/production/CriminalIntent/com/bignerdranch/criminalintent/CrimePagerActivity.class
+* out/production/CriminalIntent/com/bignerdranch/criminalintent/CriminalIntentJSONSerializer.class
+* out/production/CriminalIntent/com/bignerdranch/criminalintent/DatePickerFragment$1.class
+* out/production/CriminalIntent/com/bignerdranch/criminalintent/DatePickerFragment$2.class
+* out/production/CriminalIntent/com/bignerdranch/criminalintent/DatePickerFragment.class
+* out/production/CriminalIntent/com/bignerdranch/criminalintent/ImageFragment.class
+* out/production/CriminalIntent/com/bignerdranch/criminalintent/Photo.class
+* out/production/CriminalIntent/com/bignerdranch/criminalintent/PictureUtils.class
+* out/production/CriminalIntent/com/bignerdranch/criminalintent/R$attr.class
+* out/production/CriminalIntent/com/bignerdranch/criminalintent/R$drawable.class
+* out/production/CriminalIntent/com/bignerdranch/criminalintent/R$id.class
+* out/production/CriminalIntent/com/bignerdranch/criminalintent/R$layout.class
+* out/production/CriminalIntent/com/bignerdranch/criminalintent/R$menu.class
+* out/production/CriminalIntent/com/bignerdranch/criminalintent/R$string.class
+* out/production/CriminalIntent/com/bignerdranch/criminalintent/R.class
+* out/production/CriminalIntent/com/bignerdranch/criminalintent/SingleFragmentActivity.class
+* proguard-project.txt
+
+Moved Files:
+------------
+Android Gradle projects use a different directory structure than ADT
+Eclipse projects. Here's how the projects were restructured:
+
+* AndroidManifest.xml => app/src/main/AndroidManifest.xml
+* assets/ => app/src/main/assets/
+* res/ => app/src/main/res/
+* src/ => app/src/main/java/
+
+Next Steps:
+-----------
+You can now build the project. The Gradle project needs network
+connectivity to download dependencies.
+
+Bugs:
+-----
+If for some reason your project does not build, and you determine that
+it is due to a bug or limitation of the Eclipse to Gradle importer,
+please file a bug at http://b.android.com with category
+Component-Tools.
+
+(This import summary is for your information only, and can be deleted
+after import once you are satisfied with the results.)
